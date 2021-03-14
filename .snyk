@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - nodemon > debug:
+        patched: '2021-03-14T06:32:20.889Z'
+    - standard > eslint > debug:
+        patched: '2021-03-14T06:32:20.889Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2021-03-14T06:32:20.889Z'
+  'npm:extend:20180424':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-14T06:32:20.889Z'
+  'npm:hoek:20180212':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-14T06:32:20.889Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-14T06:32:20.889Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-14T06:32:20.889Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-14T06:32:20.889Z'
+  SNYK-JS-LODASH-567746:
+    - standard > eslint > lodash:
+        patched: '2021-03-14T06:32:20.889Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2021-03-14T06:32:20.889Z'
+    - standard > eslint > table > lodash:
+        patched: '2021-03-14T06:32:20.889Z'
+  'npm:ms:20170412':
+    - nodemon > debug > ms:
+        patched: '2021-03-14T06:32:20.889Z'
+    - standard > eslint > debug > ms:
+        patched: '2021-03-14T06:32:20.889Z'
+    - nodemon > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2021-03-14T06:32:20.889Z'
+  'npm:stringstream:20180511':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-03-14T06:32:20.889Z'
+  'npm:tough-cookie:20170905':
+    - nodemon > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2021-03-14T06:32:20.889Z'
